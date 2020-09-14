@@ -6,3 +6,5 @@ The main building block of a Spark application is a set of routes. A route is ma
 1. A verb (get, post, put, delete, head, trace, connect, options)
 2. A path (/hello, /users/:name)
 3. A callback (request, response) -> { }
+
+Default Spark port is 4567. We can change it using port() method. For ex: port(8090);
